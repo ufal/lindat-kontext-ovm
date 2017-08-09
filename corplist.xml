@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<corplist_root>
+  <corplist title="">
+    <corplist title="LINDAT speech corpora">
+      <corpus id="ovm_cs_w" sentence_struct="seg" num_tag_pos="16" keyboard_lang="cs" repo="http://hdl.handle.net/11858/00-097C-0000-000D-EC98-3" speech_segment="seg.soundfile"/>
+    </corplist>
+  </corplist>
+</corplist_root>
