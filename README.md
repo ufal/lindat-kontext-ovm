@@ -6,7 +6,28 @@ A collection of precompiled corpora to be used for development and testing of [l
 
 Checkout and point your context config to `corplist.xml`.
 
-*TODO*: default paths
+Work with default paths:
+```
+mkdir -p /opt/lindat
+cd /opt/lindat
+git clone https://github.com/ufal/lindat-test-corpora.git
+```
+
+*config.xml*://plugins/corparch
+```
+<corparch>
+    ...
+    <file>/opt/lindat/lindat-test-corpora/corplist.xml</file>
+    <root_elm_path>/corplist_root</root_elm_path>
+    ...
+</corparch>
+```
+
+*config.xml*:/kontext/corpora/manatee_registry
+```
+<manatee_registry>/opt/lindat/lindat-test-corpora/registry</manatee_registry>
+```
+*TODO* can this be "autoincluded"?
 
 ## Adding new
 
