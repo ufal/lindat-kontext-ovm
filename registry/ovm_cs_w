@@ -1,6 +1,6 @@
 NAME "Otázky Václava Moravce - political debates - Czech - words only"
-PATH "/opt/lindat/kontext-data/speech/OVM/OVM_cs-w"
-VERTICAL "/opt/lindat/kontext-data/vert/speech/OVM/OVM_cs-w"
+PATH "/opt/lindat/lindat-test-corpora/data/speech/OVM/OVM_cs-w"
+VERTICAL "/opt/lindat/lindat-test-corpora/vert/speech/OVM/OVM_cs-w"
 
 ENCODING utf-8
 INFO "Otázky Václava Moravce - Czech - words only"
