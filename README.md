@@ -18,7 +18,7 @@ git clone https://github.com/ufal/lindat-test-corpora.git
 <corparch>
     ...
     <file>/opt/lindat/lindat-test-corpora/corplist.xml</file>
-    <root_elm_path>/corplist_root</root_elm_path>
+    <root_elm_path>/corplist</root_elm_path>
     ...
 </corparch>
 ```
